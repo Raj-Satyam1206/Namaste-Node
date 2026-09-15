@@ -15,8 +15,6 @@
 7. [From JavaScript to Machine Code](#7-from-javascript-to-machine-code)
 8. [High-Level vs Low-Level Code](#8-high-level-vs-low-level-code)
 9. [Why Node.js is Useful for Servers](#9-why-nodejs-is-useful-for-servers)
-10. [Quick Revision](#10-quick-revision)
-11. [Interview Questions](#11-interview-questions)
 
 ---
 
@@ -738,53 +736,5 @@ Node.js can handle many concurrent connections efficiently without requiring a d
 | **Machine Code**       | Instructions executable by the CPU                         |
 | **Assembly**           | Low-level symbolic representation of machine instructions  |
 | **Garbage Collection** | Automatic reclamation of memory that is no longer needed   |
-
----
-
-# 11. Interview Questions
-
-### 1. What is Node.js?
-
-Node.js is a JavaScript runtime built on the V8 JavaScript engine that allows JavaScript to run outside the browser.
-
-### 2. What is V8?
-
-V8 is Google's open-source JavaScript and WebAssembly engine written in C++. It is used by Chrome and Node.js.
-
-### 3. What is the difference between V8 and Node.js?
-
-**V8 executes JavaScript. Node.js provides the runtime environment and additional APIs needed to build applications outside the browser.**
-
-### 4. Why can't V8 alone provide all Node.js functionality?
-
-V8 is a JavaScript engine. It provides JavaScript execution and language/runtime mechanisms, but capabilities such as Node's filesystem, networking, HTTP and process APIs are provided by the Node.js runtime.
-
-### 5. What is ECMAScript?
-
-ECMAScript is the standardized specification that defines the JavaScript language.
-
-### 6. What is an AST?
-
-An **Abstract Syntax Tree** is a structured representation of source code created after parsing. It represents the relationships between parts of the program.
-
-### 7. What is JIT compilation?
-
-JIT means **Just-In-Time compilation**. Code can be compiled and optimized during program execution using information available at runtime.
-
-### 8. What is machine code?
-
-Machine code consists of low-level instructions that a CPU can execute directly.
-
-### 9. Is JavaScript purely interpreted?
-
-**No.**
-
-That is an outdated oversimplification. Modern engines such as V8 use a combination of interpretation, compilation and runtime optimization.
-
-### 10. Does Node.js create one thread for every request?
-
-**No.**
-
-Node.js is designed around an event-driven architecture and does not require one application thread per request. Internal runtime and OS mechanisms can still use threads for specific work.
 
 ---
