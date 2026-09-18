@@ -38,8 +38,6 @@
 
 # 🧐 Overview
 
-Episode 10 focuses on an important part of the Node.js asynchronous architecture:
-
 > **The thread pool in libuv.**
 
 The supplied material explains that, for certain asynchronous tasks, V8 hands the work to libuv. For example, a file-system operation can be assigned to a thread in libuv's thread pool; that thread makes the request to the operating system and remains occupied until the operation completes. The thread is then freed for another operation. fileciteturn3file1L33-L45
