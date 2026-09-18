@@ -19,6 +19,7 @@
 - [`pbkdf2Sync()` vs `pbkdf2()`](#-pbkdf2sync-vs-pbkdf2)
 - [Why Synchronous Operations Can Be a Problem](#-why-synchronous-operations-can-be-a-problem)
 - [`setTimeout(0)`](#-settimeout0)
+- [Call Stack, Event Queue & libuv](#-call-stack-event-queue--libuv)
 
 ---
 
